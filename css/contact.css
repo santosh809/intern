@@ -1,0 +1,74 @@
+.contact {
+    /* image 15 */
+
+
+    position: absolute;
+    width: 100vw;
+    height: 560px;
+    left: 0px;
+    top: 4000.97px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.8) 29.51%, rgba(0, 0, 0, 0.8) 71.18%, rgba(0, 0, 0, 0.6) 100%), url(../img/dining.png);
+}
+.contact_inner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.contact_box:nth-child(1){
+    position: relative;
+    top: 35%;
+    text-align: center;
+    color: red;
+}
+.contact_box:nth-child(1) h2{
+    color: #FFC107;
+}
+.contact_box:nth-child(1) h1{
+    color: #fff;
+}
+.contact_box:nth-child(3){
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.contact_box:nth-child(3) button{
+    height:80px;
+    width: 300px;
+    background: #FFC107
+}
+.contact_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info_box{
+    padding: 20px;
+    
+} 
+.info_box input{
+width: 280px;
+height: 60px;
+color: white;
+padding: 10px;
+font-size: medium;
+background: rgba(255, 255, 255, 0.25);
+
+}
+.info_box input::placeholder{
+    color: white;
+    padding: 10px;
+    font-size: medium;
+}
+.info_box select{
+    width: 280px;
+    height: 60px;
+    color: white;
+    padding: 10px;
+    font-size: medium;
+    background: rgba(255, 255, 255, 0.25);
+    
+    }
+    C:\Users\Admin\Desktop\Html-master\img

@@ -1,0 +1,85 @@
+@import url("booking.css");
+@import url("intro.css");
+@import url("service.css");
+@import url("menu.css");
+@import url("downlod_section.css");
+@import url("contact.css");
+@import url("blog.css");
+@import url("footer.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background-image: url("../img/restu.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100vw;
+    height: 704px;
+    left: 0px;
+    top: 0px;
+}
+
+.head h1 {
+    color: white;
+
+}
+
+.navbar {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    margin-right: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+   color: white;
+}
+
+.login {
+    width: 98px;
+    height: 44px;
+    text-align: center;
+    background: #FFC107;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 805px;
+    height: 408px;
+    left: 0px;
+    top: 168px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.content_inner {
+    width: 558px;
+    height: 144px;
+    color: white;
+}
+
+#fine {
+    color: #FFC107;
+}
+.content_inner h1{
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+}

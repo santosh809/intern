@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,500&family=Source+Sans+Pro:wght@300&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,500&family=Source+Sans+Pro:wght@300&display=swap');
+
+.menu_lunch {
+    position: absolute;
+    width: 85vw;
+    height: 700px;
+    left: 10%;
+    top: 900px;
+}
+
+.menu_top {
+    /* height: 100px; */
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .menu_top_inside {
+    position: absolute;
+    left: 15%;
+    height: 100px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 80px;
+
+} */
+
+.menu_menu:nth-child(1) {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 30px;
+    font-weight: 50;
+    color: #FFC107;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu_category {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    font-size: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: normal;
+    color: #BDBDBD;
+    ;
+}
+/* --------------------------------Mid_menu -css----------------------------------------------------------- */
+.menu_mid {
+    height: 800px;
+    width: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: bisque;
+    grid-gap: 8px;
+    margin-top: 10px;
+}
+
+/* .menu_mid div {
+    background-color: aqua;
+} */
+.menu_box_inside {
+    height: 400px;
+    width: 721.7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* .menu_box_inside div{
+    background-color: blue;
+} */
+.menu_pic img {
+    height: 300px;
+    width: 339.49px;
+}
+
+.menu_des {
+    padding: 10px 50px 50px 5px;
+}
+
+.menu_des h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.menu_des p {
+    padding: 10px 0px 10px 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: 0.4;
+    color: black;
+}
+
+.menu_des label {
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: bolder;
+    color: red;
+}

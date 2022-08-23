@@ -1,0 +1,42 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    height: 373px;
+    top: 1024px;
+}
+
+.intro h2 {
+    width: 158px;
+    height: 36px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFC107;
+
+}
+.writing_pic img{
+    width: 500px;
+    height: 373px;
+}
+.writing {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 500px;
+    height: 373px;
+}
+.writing small{
+    height: 373px;
+    font-size: 20px;
+    line-height: 1.6;
+    opacity: 0.4;
+}

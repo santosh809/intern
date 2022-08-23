@@ -1,0 +1,55 @@
+@import url("breakfast.css");
+@import url("footer.css");
+/* @import url("lunch.css");
+@import url("dinner.css"); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+}
+.head {
+    /* background-image: url("img/restu.jfif");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: absolute;
+    width: 100vw;
+    height: 76px;
+    box-shadow: 2px 1px 8px -4px black;
+    left: 0px;
+    top: 0px;
+}
+
+.head h1 {
+    color: black;
+
+}
+
+.navbar {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    margin-right: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    width: 98px;
+    height: 44px;
+    text-align: center;
+    background: #FFC107;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
